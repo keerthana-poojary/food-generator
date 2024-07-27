@@ -171,7 +171,7 @@ def login():
 
 
 def generate_recipe(prompt_text):
-    genai.configure(api_key="AIzaSyCi9VO_ezaweZur7uSpAgQVsWKSRNoDnyc")
+    genai.configure(api_key="Your api here")
 
     generation_config = {
         "temperature": 0.9,
